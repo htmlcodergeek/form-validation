@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+body {
+  background: tomato;
+}
+
+.frm-container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: teal;
+  width: 60%;
+  /* height: 70%; */
+  border-radius: 15px;
+  margin: 10px;
+  padding: 11px;
+}
+
+#validate {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  background: whitesmoke;
+  font-size: 1rem !important;
+  position: relative;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.control-label {
+  display: inline-block;
+  width: 30% !important;
+  text-align: justify;
+  font-weight: bolder;
+  font-size: 0.9rem;
+}
+
+.input_box {
+  display: block;
+  width: 70% !important;
+  float: right;
+}
+
+.error {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: o auto !important;
+
+  color: rgb(190, 7, 7);
+}
+
+#Username,
+#password {
+  display: block;
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid rgb(12, 12, 12);
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+ul {
+  width: 80%;
+  display: inline-block;
+  font-size: 0.8rem;
+  position: relative;
+  text-align: center;
+  list-style-type: none;
+  left: 30%;
+  margin: 0 !important;
+}
+
+ul > li {
+  font-size: 0.8rem;
+  text-align: justify;
+  width: 60%;
+  margin: 2px;
+  padding: 2px;
+}
+
+#pass_err {
+  display: inline-block;
+  width: 0%;
+  border: 0px solid black;
+  position: relative;
+  padding: 2px;
+  text-align: justify;
+  left: 30%;
+  margin: 1px;
+  top: -10px;
+  background-color: rgb(253, 253, 253);
+}
